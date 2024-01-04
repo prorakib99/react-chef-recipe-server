@@ -3,7 +3,8 @@ const app = express();
 const cors = require('cors')
 const port = 5000;
 
-const chefs = require('./data/chef.json')
+const chefs = require('./data/chef.json');
+const recipes = require('./data/recipes.json')
 
 app.use(cors())
 
@@ -19,6 +20,17 @@ app.get('/chef/:id', (req, res) => {
     const id = req.params.id;
     const selectedItem = chefs.find(chef => chef.id === parseInt(id));
     res.send(selectedItem)
+})
+
+app.get('/recipes', (req, res) => {
+    res.send(recipes);
+})
+
+app.get('/recipe/:id', (req, res) => {
+    const id = req.params.id;
+    console.log(id);
+    const selectedItems = recipes.filter(recipe => recipe.chefId === parseInt(id));
+    res.send(selectedItems)
 })
 
 app.listen(port, () => {
