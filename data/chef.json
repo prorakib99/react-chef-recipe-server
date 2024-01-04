@@ -5,8 +5,30 @@
       "yearsOfExperience": 10,
       "numberOfRecipes": 3,
       "likes": 1000,
-      "picture": "https://ik.imagekit.io/ei16yw7po/chef-one.png"
-      
+      "picture": "https://ik.imagekit.io/ei16yw7po/chef-one.png",
+      "recipes": [
+        {
+          "recipeId": 101,
+          "recipeName": "Spicy Chicken Curry",
+          "ingredients": ["Chicken", "Onions", "Tomatoes", "Spices"],
+          "instructions": "1. Marinate chicken with spices. 2. Sauté onions and tomatoes. 3. Cook marinated chicken with sautéed ingredients.",
+          "recipePhoto": "https://ik.imagekit.io/ei16yw7po/spicy_chicken_curry.png"
+        },
+        {
+          "recipeId": 102,
+          "recipeName": "Vegetable Biryani",
+          "ingredients": ["Basmati Rice", "Mixed Vegetables", "Spices"],
+          "instructions": "1. Cook rice and vegetables separately. 2. Layer rice and vegetables with spices. 3. Steam until fully cooked.",
+          "recipePhoto": "https://ik.imagekit.io/ei16yw7po/vegetable_biryani.jpg"
+        },
+        {
+          "recipeId": 103,
+          "recipeName": "Mango Chicken",
+          "ingredients": ["Chicken", "Mango", "Coconut Milk", "Spices"],
+          "instructions": "1. Marinate chicken with mango puree and spices. 2. Cook marinated chicken in coconut milk. 3. Garnish with fresh mango slices.",
+          "recipePhoto": "https://ik.imagekit.io/ei16yw7po/mango_chicken.jpg"
+        }
+      ]
     },
     {
       "id": 2,
@@ -14,7 +36,30 @@
       "yearsOfExperience": 8,
       "numberOfRecipes": 3,
       "likes": 800,
-      "picture": "https://ik.imagekit.io/ei16yw7po/chef-two.png"
+      "picture": "https://ik.imagekit.io/ei16yw7po/chef-two.png",
+      "recipes": [
+        {
+          "recipeId": 201,
+          "recipeName": "Shrimp Stir-Fry",
+          "ingredients": ["Shrimp", "Vegetables", "Soy Sauce"],
+          "instructions": "1. Stir-fry shrimp and vegetables in a hot wok. 2. Add soy sauce and stir until fully cooked.",
+          "recipePhoto": "https://ik.imagekit.io/ei16yw7po/shrimp_stir_fry.jpg.jpg"
+        },
+        {
+          "recipeId": 202,
+          "recipeName": "Mango Lassi",
+          "ingredients": ["Mango", "Yogurt", "Sugar"],
+          "instructions": "1. Blend mango, yogurt, and sugar until smooth. 2. Pour into glasses and serve chilled.",
+          "recipePhoto": "https://ik.imagekit.io/ei16yw7po/mango_lassi.jpg"
+        },
+        {
+          "recipeId": 203,
+          "recipeName": "Garlic Butter Prawns",
+          "ingredients": ["Prawns", "Garlic", "Butter", "Herbs"],
+          "instructions": "1. Sauté prawns in garlic butter. 2. Sprinkle with herbs and serve hot.",
+          "recipePhoto": "https://ik.imagekit.io/ei16yw7po/garlic_butter_prawns.jpg"
+        }
+      ]
     },
     {
       "id": 3,
@@ -22,8 +67,30 @@
       "yearsOfExperience": 15,
       "numberOfRecipes": 3,
       "likes": 1200,
-      "picture": "https://ik.imagekit.io/ei16yw7po/chef-three.png"
-      
+      "picture": "https://ik.imagekit.io/ei16yw7po/chef-three.png",
+      "recipes": [
+        {
+          "recipeId": 301,
+          "recipeName": "Lamb Korma",
+          "ingredients": ["Lamb", "Yogurt", "Spices"],
+          "instructions": "1. Cook lamb in a rich yogurt and spice gravy. 2. Simmer until lamb is tender and flavorful.",
+          "recipePhoto": "https://ik.imagekit.io/ei16yw7po/lamb_korma.jpg"
+        },
+        {
+          "recipeId": 302,
+          "recipeName": "Chana Masala",
+          "ingredients": ["Chickpeas", "Tomatoes", "Spices"],
+          "instructions": "1. Sauté chickpeas with tomatoes and spices. 2. Simmer until chickpeas are coated in a flavorful sauce.",
+          "recipePhoto": "https://ik.imagekit.io/ei16yw7po/chana_masala.jpg"
+        },
+        {
+          "recipeId": 303,
+          "recipeName": "Palak Paneer",
+          "ingredients": ["Paneer", "Spinach", "Cream", "Spices"],
+          "instructions": "1. Cook paneer in a creamy spinach sauce with aromatic spices. 2. Serve hot with naan or rice.",
+          "recipePhoto": "https://ik.imagekit.io/ei16yw7po/palak_paneer.png"
+        }
+      ]
     }
   ]
   
